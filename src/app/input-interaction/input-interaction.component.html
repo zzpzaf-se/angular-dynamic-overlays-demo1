@@ -1,0 +1,15 @@
+<!-- <p>input-interaction works!</p> -->
+
+
+<!-- <div class="my-container" (mouseenter)="dynEevent.emit(dynMessage)"  (mouseleave)="dynEevent.emit('')" > -->
+<div class="my-container"  >
+    <br>
+    <input type="text" placeholder="Enter message" #input/>
+    <br>
+    <button type="button" (click)="subTitle = input.value" > Click Me! </button>
+    <br>
+
+<dIv class="tcenter">   
+    {{subTitle}}    
+</dIv>
+</div>
